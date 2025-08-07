@@ -1,0 +1,37 @@
+body {
+    background: #f4f8fa;
+    min-height: 100vh;
+}
+.main-container {
+    max-width: 680px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 22px #daeaf5;
+    padding: 35px 30px 28px 30px;
+}
+h2 {
+    font-weight: 700;
+    color: #1d3557;
+}
+.card-header {
+    background: #f1f6fa;
+    font-size: 1.03rem;
+}
+.analytics {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+pre {
+    background: #f6f8fa !important;
+    border: none !important;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.btn-primary, .btn-outline-primary {
+    font-weight: 600;
+}
+.alert {
+    margin-top: 8px;
+}
